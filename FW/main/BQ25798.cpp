@@ -516,7 +516,6 @@ void BQ25798::setupRegisters(){
   uint8_t reg0x24_val = 0b00111001;
   writeReg8(REG24_TIMER_CONTROL, reg0x24_val);
   
-
 }
 
 
