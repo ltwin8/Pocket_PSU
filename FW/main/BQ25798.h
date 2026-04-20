@@ -44,7 +44,6 @@ public:
     void setOTG_Current(uint16_t mA);
 
     void setupRegisters();
-    void OneshotADC();
 
     uint16_t readV_Bat();
     int16_t readI_Bat();
